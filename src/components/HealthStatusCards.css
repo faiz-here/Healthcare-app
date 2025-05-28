@@ -1,0 +1,39 @@
+.health-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 200px;
+  }
+  
+  .health-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .health-card h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  .image-card{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: center;
+  }
+  img{
+    height: 3rem;
+  }
+  
+  .health-card .status {
+    font-weight: bold;
+    margin: 4px 0;
+  }
+  
+  .health-card .date {
+    font-size: 12px;
+    color: #999;
+  }
+  
